@@ -1,32 +1,11 @@
 ACQUISTO SHOP FOR CONTAO
 ------------------------
+Acquisto ist eine Webshop Application f¸r das Contao CMS (www.contao.org).
+Die Webseite des Acquisto Shop finden Sie auf www.contao-acquisto.de der 
+DemoShop ist unter http://demo.contao-acquisto.de erreichbar.
 
-Copyright by Sascha Brandhoff, pixelSpread.de
-Version: 0.8
+Die Software steht unter der LGPL. Wir w¸rden finanzieren dieses Projekt 
+¸ber Spenden und sind auf diese angewiesen. Deshalb freuen wir uns ¸ber
+finanzielle Unterst¸tzung. Mehr dazu erfahren Sie auf unserer Internetseite.
 
-- Acquisto
-  - Hersteller
-    > anlegen: ja
-    > modul:   nein
-    > sprache: ja
-  - Produkte
-  - Warengruppen
-  - Gutscheine
-    > anlegen: ja
-    > modul:   nein
-    > sprache: ja
-
-- Acquisto Bestellungen
-  - Bestellungen
-
-- Acquisto Einstellungen
-  - Attribute
-  - Einstellungen
-  - Mengeneinheiten
-  - Steuern
-    > anlegen: ja
-    > modul:   wird nicht benˆtigt
-    > sprache: ja
-  - Versandzonen
-  - Zahlungsarten
-
+Wir hoffen Sie haben Spaﬂ und Erfolg mit dem Acquisto Shop. 
