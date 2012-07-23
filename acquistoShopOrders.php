@@ -41,7 +41,8 @@ class acquistoShopOrders extends Controller {
     public function __construct() {
         parent::__construct();
         $this->Import('Database');
-        $this->Import('acquistoShopProdukt', 'Produkt');        
+        $this->Import('acquistoShopProdukt', 'Produkt');
+        $this->Import('acquistoShop', 'Shop');        
     }
     
     public function list($member_id) {

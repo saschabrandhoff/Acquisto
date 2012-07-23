@@ -79,25 +79,26 @@ $GLOBALS['TL_LANG']['FMD']['acquistoShop_Bestellliste']    = array('Bestellliste
 /**
  * Fields
  */
-$GLOBALS['TL_LANG']['tl_module']['list_settings']               = 'Listeneinstellungen';
-$GLOBALS['TL_LANG']['tl_module']['list_images']                 = 'Bildeinstellungen (Liste)';
-$GLOBALS['TL_LANG']['tl_module']['categorie_image']             = 'Bildeinstellungen (Kategorie)';
-$GLOBALS['TL_LANG']['tl_module']['contaoShop_jumpTo']           = array('Weiterleitungsziel','');
-$GLOBALS['TL_LANG']['tl_module']['contaoShop_imageSrc']         = array('Standardbild','');
-$GLOBALS['TL_LANG']['tl_module']['contaoShop_numberOfItems']    = array('Gesamtzahl der Produkte','Hier k&ouml;nnen Sie die Gesamtzahl der Beitr&auml;ge festlegen.');
-$GLOBALS['TL_LANG']['tl_module']['contaoShop_imageFullsize']    = array('Gro&szlig;ansicht/Neues Fenster', 'Gro&szlig;ansicht des Bildes in einer Lightbox bzw. den Link in einem neuen Browserfenster &ouml;ffnen.');
-$GLOBALS['TL_LANG']['tl_module']['contaoShop_Template']         = array('Template','W&auml;hlen Sie ein Template aus.');
-$GLOBALS['TL_LANG']['tl_module']['contaoShop_levelOffset']      = array('Startlevel', '');
-$GLOBALS['TL_LANG']['tl_module']['contaoShop_showLevel']        = array('Stoplevel', '');
-$GLOBALS['TL_LANG']['tl_module']['acquistoShop_elementsPerRow'] = array('Elemente pro Zeile', '');
-$GLOBALS['TL_LANG']['tl_module']['acquistoShop_tags']           = array('Tags', 'Sie m&uuml;ssen die Tags komma getrennt eingeben. Bsp. Tag 1, Tag 2, Tag 3');
-$GLOBALS['TL_LANG']['tl_module']['acquistoShop_zustand']        = array('Produktzustand', '');
-$GLOBALS['TL_LANG']['tl_module']['acquistoShop_hersteller']     = array('Hersteller', '');
-$GLOBALS['TL_LANG']['tl_module']['acquistoShop_produkttype']    = array('Produkttyp', '');
-$GLOBALS['TL_LANG']['tl_module']['acquistoShop_markedProducts'] = array('Hervorgehobene', '');
-$GLOBALS['TL_LANG']['tl_module']['acquistoShop_warengruppe']    = array('Warengruppe', '');
+$GLOBALS['TL_LANG']['tl_module']['list_settings']                = 'Listeneinstellungen';
+$GLOBALS['TL_LANG']['tl_module']['list_images']                  = 'Bildeinstellungen (Liste)';
+$GLOBALS['TL_LANG']['tl_module']['categorie_image']              = 'Bildeinstellungen (Kategorie)';
+$GLOBALS['TL_LANG']['tl_module']['contaoShop_jumpTo']            = array('Weiterleitungsziel','');
+$GLOBALS['TL_LANG']['tl_module']['contaoShop_imageSrc']          = array('Standardbild','');
+$GLOBALS['TL_LANG']['tl_module']['contaoShop_numberOfItems']     = array('Gesamtzahl der Produkte','Hier k&ouml;nnen Sie die Gesamtzahl der Beitr&auml;ge festlegen.');
+$GLOBALS['TL_LANG']['tl_module']['contaoShop_imageFullsize']     = array('Gro&szlig;ansicht/Neues Fenster', 'Gro&szlig;ansicht des Bildes in einer Lightbox bzw. den Link in einem neuen Browserfenster &ouml;ffnen.');
+$GLOBALS['TL_LANG']['tl_module']['contaoShop_Template']          = array('Template','W&auml;hlen Sie ein Template aus.');
+$GLOBALS['TL_LANG']['tl_module']['contaoShop_levelOffset']       = array('Startlevel', '');
+$GLOBALS['TL_LANG']['tl_module']['contaoShop_showLevel']         = array('Stoplevel', '');
+$GLOBALS['TL_LANG']['tl_module']['acquistoShop_elementsPerRow']  = array('Elemente pro Zeile', '');
+$GLOBALS['TL_LANG']['tl_module']['acquistoShop_tags']            = array('Tags', 'Sie m&uuml;ssen die Tags komma getrennt eingeben. Bsp. Tag 1, Tag 2, Tag 3');
+$GLOBALS['TL_LANG']['tl_module']['acquistoShop_zustand']         = array('Produktzustand', '');
+$GLOBALS['TL_LANG']['tl_module']['acquistoShop_hersteller']      = array('Hersteller', '');
+$GLOBALS['TL_LANG']['tl_module']['acquistoShop_produkttype']     = array('Produkttyp', '');
+$GLOBALS['TL_LANG']['tl_module']['acquistoShop_markedProducts']  = array('Hervorgehobene', '');
+$GLOBALS['TL_LANG']['tl_module']['acquistoShop_warengruppe']     = array('Warengruppe', '');
 $GLOBALS['TL_LANG']['tl_module']['acquistoShop_listTemplate']    = array('Auflistungstemplate', 'W&auml;hlen Sie das Auflistungstemplate aus.');
-
+$GLOBALS['TL_LANG']['tl_module']['acquistoShop_selFields']       = array('Anzeigefelder', '');
+$GLOBALS['TL_LANG']['tl_module']['acquistoShop_mandatoryFields'] = array('Pflichtfelder', '');
 
 $GLOBALS['TL_LANG']['tl_module']['socialmedia']                 = 'SocialMedia';
 $GLOBALS['TL_LANG']['tl_module']['contaoShop_socialFacebook']   = array('Facebook Gef&auml;llt mir Button', '');

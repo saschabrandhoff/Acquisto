@@ -349,6 +349,8 @@ CREATE TABLE `tl_module` (
   `acquistoShop_produkttype` varchar(255) NOT NULL default '',
   `acquistoShop_warengruppe` char(255) NOT NULL default '',
   `acquistoShop_allowComments` char(1) NOT NULL default '',
+  `acquistoShop_selFields` text NOT NULL,
+  `acquistoShop_mandatoryFields` text NOT NULL,
   `acquistoShop_commentsOrder` char(10) NOT NULL default '',
   `acquistoShop_commentsTemplate` varchar(255) NOT NULL default '',
   `acquistoShop_commentsPerPage` char(10) NOT NULL default '',

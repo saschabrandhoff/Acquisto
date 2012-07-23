@@ -110,6 +110,9 @@ class mod_acquistoShop_Warenkorb extends Module
         switch($this->Input->Get('do'))
         {
             case 'customer':
+                #print_r(unserialize($this->acquistoShop_selFields));
+                #print_r(unserialize($this->acquistoShop_mandatoryFields));
+
                 if (FE_USER_LOGGED_IN) {
                     $this->import('FrontendUser', 'User');
                     $objMember = $this->Database->prepare("SELECT * FROM tl_member WHERE id=?")->limit(1)->execute($this->User->id);

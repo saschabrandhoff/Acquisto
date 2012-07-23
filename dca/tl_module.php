@@ -36,7 +36,7 @@ $GLOBALS['TL_DCA']['tl_module']['palettes']['acquistoShop_Produktliste']    = '{
 $GLOBALS['TL_DCA']['tl_module']['palettes']['acquistoShop_Suchergebnis']    = '{title_legend},name,headline,type;{config_legend},contaoShop_jumpTo,contaoShop_numberOfItems,perPage,acquistoShop_elementsPerRow,acquistoShop_listTemplate;{contaoShop_image},contaoShop_imageSize,contaoShop_imageMargin,contaoShop_imageFloating;{expert_legend:hide},cssID,space';
 $GLOBALS['TL_DCA']['tl_module']['palettes']['acquistoShop_Breadcrumb']      = '{title_legend},name,headline,type;{config_legend},contaoShop_jumpTo;{expert_legend:hide},cssID,space';
 $GLOBALS['TL_DCA']['tl_module']['palettes']['acquistoShop_Suche']           = '{title_legend},name,headline,type;{config_legend},contaoShop_imageSrc,contaoShop_jumpTo;{expert_legend:hide},cssID,space';
-$GLOBALS['TL_DCA']['tl_module']['palettes']['acquistoShop_Warenkorb']       = '{title_legend},name,headline,type;{config_legend},acquistoShop_emailTemplate,acquistoShop_emailTyp,contaoShop_jumpTo,acquistoShop_AGBFile;{expert_legend:hide},cssID,space';
+$GLOBALS['TL_DCA']['tl_module']['palettes']['acquistoShop_Warenkorb']       = '{title_legend},name,headline,type;{config_legend},acquistoShop_emailTemplate,acquistoShop_emailTyp,contaoShop_jumpTo,acquistoShop_AGBFile;{fields},acquistoShop_selFields,acquistoShop_mandatoryFields;{expert_legend:hide},cssID,space';
 $GLOBALS['TL_DCA']['tl_module']['palettes']['acquistoShop_WarenkorbWidget'] = '{title_legend},name,headline,type;{config_legend},contaoShop_jumpTo;{expert_legend:hide},cssID,space';
 $GLOBALS['TL_DCA']['tl_module']['palettes']['acquistoShop_Warengruppen']    = '{title_legend},name,headline,type;{config_legend},contaoShop_levelOffset,contaoShop_showLevel,contaoShop_jumpTo;{expert_legend:hide},cssID,space';
 $GLOBALS['TL_DCA']['tl_module']['palettes']['acquistoShop_AGB']             = '{title_legend},name,headline,type;{expert_legend:hide},cssID,space';
@@ -328,6 +328,23 @@ $GLOBALS['TL_DCA']['tl_module']['fields']['acquistoShop_warengruppe'] = array
     'eval'                    => array('tl_class'=>'', 'includeBlankOption' => true)
 );
 
+$GLOBALS['TL_DCA']['tl_module']['fields']['acquistoShop_selFields'] = array
+(
+    'label'                   => &$GLOBALS['TL_LANG']['tl_module']['acquistoShop_selFields'],
+    'exclude'                 => true,
+    'inputType'               => 'checkbox',
+    'options'                 => $GLOBALS['TL_ACQCONF']['FIELDS'],
+    'eval'                    => array('multiple'=>true, 'mandatory'=>false)
+);
+
+$GLOBALS['TL_DCA']['tl_module']['fields']['acquistoShop_mandatoryFields'] = array
+(
+    'label'                   => &$GLOBALS['TL_LANG']['tl_module']['acquistoShop_mandatoryFields'],
+    'exclude'                 => true,
+    'inputType'               => 'checkbox',
+    'options'                 => $GLOBALS['TL_ACQCONF']['FIELDS'],
+    'eval'                    => array('multiple'=>true, 'mandatory'=>false)
+);
 
 //$GLOBALS['TL_DCA']['tl_module']['fields']['contaoShop_Template'] = array
 //(

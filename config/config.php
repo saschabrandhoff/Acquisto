@@ -176,4 +176,15 @@ if (TL_MODE == 'BE') {
     }
 }
 
+$GLOBALS['TL_ACQCONF']['FIELDS'] = array(
+    'firstname'  => 'Vorname',
+    'lastname'   => 'Nachname',
+    'company'    => 'Firma',
+    'postalcode' => 'Postleitzahl',
+    'city'       => 'Ort',
+    'mail'       => 'E-Mail',
+    'phone'      => 'Telefon',
+    'fax'        => 'Telfax'
+);
+
 ?>
