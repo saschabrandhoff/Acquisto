@@ -25,9 +25,7 @@
                     <td class="title_row"><?php if($bestellung->payed == 'Y'): ?>Ja<?php else: ?>Nein<?php endif; ?></td>
                     <td class="price_row"><?php echo $bestellung->versandpreis; ?> EUR</td>
                     <td class="summe_row"><?php echo $bestellung->endpreis; ?> EUR</td>
-                    <td class="button_row">
-                        <a href="<?php echo $bestellung->url; ?>">Details</a>
-                    </td>
+                    <td class="button_row"><a href="<?php echo $bestellung->url; ?>">Details</a></td>
                 </tr>
                 <?php endforeach; endif; ?>
             </table>
