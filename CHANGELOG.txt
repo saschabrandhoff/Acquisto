@@ -1,0 +1,7 @@
+./dca/tl_shop_orders
+# Bestellung kann nicht auf bezahlt gestellt werden
+
+./mod_acquistoShop_Produktfilter
+# Filter nach Produktzustand
+# Mehrere Filter gleichzeitig anwenden
+# Eigene Merkmale zum Filtern anlegen
